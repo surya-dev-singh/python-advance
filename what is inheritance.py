@@ -1,0 +1,1 @@
+#Inheritance allows us to define a class that inherits all the methods and properties from another class. Child class is the class that inherits from another class, also called derived class. this reduces redundancy or duplicacy of data.

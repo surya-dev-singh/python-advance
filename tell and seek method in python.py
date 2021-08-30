@@ -1,0 +1,20 @@
+# tell() - This method is used to find current position of file pointer from begining of the file. position strt from 0.
+f = open("testme1.txt", mode="r")
+print(f.tell())
+data1= f.read(5)
+print(data1)
+print(f.tell())
+data2=f.read(3)
+print(data2)
+print(f.tell())
+f.close()
+
+print("################################")
+#seek(position) - This method is used to move file pointer from one position to another position from beginning of file. position start from 0 and it must be positive integer.
+#syntax: file_object.seek(position)
+f=open("testme1.txt",mode="r")
+print(f.tell())
+f.seek(7)
+print(f.tell())
+print(f.read())
+f.close()
